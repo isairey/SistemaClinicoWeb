@@ -56,7 +56,8 @@ Ejecutar el sistema en el navegador:
 http://localhost/remoteclinic
 ```
 ## 🔐 Acceso al Sistema
-Usuario: admin@domain.ext
-Contraseña: remoteclinic
 
-⚠️ Se recomienda cambiar las credenciales después del primer acceso.
+- Usuario: admin@domain.ext
+- Contraseña: remoteclinic
+
+- ⚠️ Se recomienda cambiar las credenciales después del primer acceso.
