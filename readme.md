@@ -1,25 +1,62 @@
-<h1>Remote Clinic <span>v2.0</span></h1>
+# 🏥 Remote Clinic v2.0
 
-<p>Remote Clinic is an open source Clinic Management System that allows you to remotely manage your clinic(s) over the web. Visit  https://remoteclinic.io to know more about the product in detail.</p>
-<p>Please read provided <a href="https://github.com/remoteclinic/RemoteClinic/blob/master/license.txt">license.txt</a> before getting started. </p>
-<br>
+<p align="center">
+  <img src="https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Versión-2.0-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Licencia-GPL%20v2-orange?style=for-the-badge">
+</p>
 
-<h2>Installation:</h2>
-<p>Simply place the content provided at your desired directory on the server/localhost and upload the attached remoteclinic.sql to your MySQL server, and update the database credentials in ~/pre-includes/db.php.</p>
+---
 
-<p>Visit the home folder from your browser and use the following login credentials to get started:</p>
+## 🌐 Descripción
 
-<strong>User:</strong> admin@domain.ext<br>
-<strong>Password:</strong> remoteclinic
-<br><br>
+**Remote Clinic** es un sistema de gestión clínica de código abierto que permite administrar una o varias clínicas de forma remota a través de la web.  
+Está diseñado para facilitar el control de pacientes, citas y operaciones médicas desde cualquier lugar.
 
-<h3>System Requirements </h3>
-PHP version 5.2 or higher.<br>
-MySQL version 5.0 or higher.<br>
+🔗 Más información: https://remoteclinic.io  
 
-<br>
+---
 
-<p>Remote Clinic is an open-source software, and is released under the terms of the GPL version 2 or later. If you have any suggestions or feedback about the software or if there is any feature you would love to see in upcoming edition, please feel free to write at care(at)remoteclinic.io </p>
-<br>
+## 🚀 Características
 
-<p>Follow us on <a href="https://facebook.com/remoteclinic">Facebook</a> | <a href="https://twitter.com/remoteclinicio">Twitter</a>
+- Gestión de clínicas en línea  
+- Administración de pacientes  
+- Control de citas médicas  
+- Acceso remoto desde navegador  
+- Sistema multiusuario  
+- Interfaz sencilla y funcional  
+
+---
+
+## ⚙️ Requisitos del Sistema
+
+- PHP 5.2 o superior  
+- MySQL 5.0 o superior  
+- Servidor web (Apache recomendado)  
+
+---
+
+## 🛠️ Instalación
+
+1. Copiar los archivos del proyecto en tu servidor o entorno local:
+   - XAMPP → `htdocs`
+   - WAMP → `www`
+
+2. Crear una base de datos en MySQL
+
+3. Importar el archivo:
+   ```
+   remoteclinic.sql
+   ```
+
+5. Configurar las credenciales en:
+```php
+~/pre-includes/db.php
+Ejecutar el sistema en el navegador:
+http://localhost/remoteclinic
+```
+## 🔐 Acceso al Sistema
+Usuario: admin@domain.ext
+Contraseña: remoteclinic
+
+⚠️ Se recomienda cambiar las credenciales después del primer acceso.
