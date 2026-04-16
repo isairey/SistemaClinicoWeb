@@ -60,4 +60,4 @@ http://localhost/remoteclinic
 - Usuario: admin@domain.ext
 - Contraseña: remoteclinic
 
-- ⚠️ Se recomienda cambiar las credenciales después del primer acceso.
+ ⚠️ Se recomienda cambiar las credenciales después del primer acceso.
